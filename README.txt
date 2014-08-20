@@ -47,4 +47,4 @@ Your current version is wack. Don't worry though because if you update me everyt
 
 == Screenshots ==
 
-1. screenshot-1.png
+1. ![login screen](assets/screenshot-1.png)
