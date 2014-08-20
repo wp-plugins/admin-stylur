@@ -7,7 +7,7 @@ Tags: admin, dashboard, login, styling, customize
 Tested up to: 3.9.2
 Stable tag: 1.1
 License: GPLv2 or later
-Donate link: http://example.com
+Donate link: http://google.com
 
 == Description ==
 
