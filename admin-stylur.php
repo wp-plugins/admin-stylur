@@ -3,12 +3,12 @@
  * @package Admin Stylur
  * @version 1.1
  * @copyright 2014
- * @link  https://github.com/grayghostvisuals/admin-stylur
+ * @link  http://wordpress.org/plugins/admin-stylur
  */
 /*
 Plugin Name: Admin Stylur
-Plugin URI: https://github.com/grayghostvisuals/admin-stylur
-Description: Customize your WordPress dashboard and login screens via a single CSS file. Includes a custom logo uploader for all login screens.
+Plugin URI: http://wordpress.org/plugins/admin-stylur
+Description: Customize your WordPress dashboard and login views via a single CSS file. Includes a custom logo uploader for all login screens.
 Author: Gray Ghost Visuals
 Version: 1.1
 Author URI: http://grayghostvisuals.com
