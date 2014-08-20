@@ -6,7 +6,7 @@ Requires at least: 3.9.2
 Tested up to: 3.9.2
 Tags: admin, dashboard, login, styling, customize
 License: GPLv2 or later
-Donate link: http://google.com
+Donate link: https://www.habitat.org/cd/giving/one/donate.aspx?z=a&link=1
 
 == Description ==
 
@@ -29,10 +29,10 @@ You'll find the logo uploader under WordPress' “Appearance” menu item locate
 = Where are the custom styles at dawg? =
 Go to the “plugins” menu via your dashboard and select the admin-stylur's “edit” link.
 
-= So your just giving me a plain old CSS file? =
-Sort of. It's a list of hooks for your convenience with some general login view cleanup cause I never like it.
+= So you're just giving me a plain old CSS file? =
+Sort of. It's a list of hooks and such for your convenience w/some general login view cleanup cause I never like the way it looks.
 
-= How fast do swallows go? =
+= What is the airspeed velocity of a swallow? =
 Pretty fast.
 
 == Changelog ==
