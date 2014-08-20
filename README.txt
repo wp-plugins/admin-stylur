@@ -48,3 +48,4 @@ Your current version is wack. Don't worry though because if you update me everyt
 == Screenshots ==
 
 1. ![login screen](assets/screenshot-1.png)
+2. assets/screenshot-1.png
