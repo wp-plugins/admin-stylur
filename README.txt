@@ -11,7 +11,7 @@ Donate link: http://example.com
 
 == Description ==
 
-Customize your WordPress Dashboard and admin login via a single CSS file that can be edited right from your dashboard. Read more about the customization of your admin via the WordPress Codex(http://codex.wordpress.org/Creating_Admin_Themes). Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
+Customize your WordPress Dashboard and admin login via a single CSS file that can be edited right from your dashboard. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
 
 NOTE:
 Layout uses [flexbox](http://caniuse.com/#search=flexbox). Error messages use [transforms](http://caniuse.com/#search=transforms), [transitions](http://caniuse.com/#search=transitions) and [animations](http://caniuse.com/#search=animations). Vendor prefixes supplied where required. Consider yourself warned.
@@ -48,3 +48,4 @@ Your current version is wack. Don't worry though because if you update me everyt
 == Screenshots ==
 
 1. login screen
+2. ![login screen](/assets/screenshot-1.png)
