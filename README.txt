@@ -3,9 +3,8 @@
 Contributors: grayghostvisuals
 Stable tag: 1.1
 Requires at least: 3.9.2
-Tags: admin, dashboard, login, styling, customize
 Tested up to: 3.9.2
-Stable tag: 1.1
+Tags: admin, dashboard, login, styling, customize
 License: GPLv2 or later
 Donate link: http://google.com
 
@@ -18,9 +17,9 @@ Layout uses [flexbox](http://caniuse.com/#search=flexbox). Error messages use [t
 
 == Installation ==
 
-1. download the plugin
-2. upload to your “plugins” directory
-3. celebrate good times.
+1. Download the plugin
+2. Upload to your “plugins” directory
+3. Celebrate good times
 
 == Frequently Asked Questions ==
 
