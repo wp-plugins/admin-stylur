@@ -47,5 +47,11 @@ Your current version is wack. Don't worry though because if you update me everyt
 
 == Screenshots ==
 
-1. login screen
-2. ![login screen](/assets/screenshot-1.png)
+1. login
+2. login error message
+3. logout message
+4. Forgot password
+5. Forgot password error message
+6. Session expired
+7. Session expired error message
+8. Custom logo uploader screen
