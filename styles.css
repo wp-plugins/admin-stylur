@@ -1,10 +1,11 @@
-/**
- * @Admin Login
- * http://codex.wordpress.org/Customizing_the_Login_Form
- * @since 1.0
- */
+/* @Admin Login -------------------------------------------------- */
+/* http://codex.wordpress.org/Customizing_the_Login_Form */
 
-/*body.login {}
+html {
+	background: inherit;
+}
+
+body.login {}
 body.login div#login {}
 body.login div#login h1 {}
 body.login div#login h1 a {}
@@ -21,13 +22,11 @@ body.login div#login form#loginform p.submit input#wp-submit {}
 body.login div#login p#nav {}
 body.login div#login p#nav a {}
 body.login div#login p#backtoblog {}
-body.login div#login p#backtoblog a {}*/
+body.login div#login p#backtoblog a {}
 
-html {
-	background: inherit;
-}
 
-/* Main Body */
+/* login form
+ ******************************/
 .login {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -41,9 +40,9 @@ html {
 
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-
 	-webkit-justify-content: center;
 	justify-content: center;
+
 	background: white;
 }
 
@@ -53,17 +52,20 @@ html {
 }
 
 
-/* login page links */
+/* login page links
+ ******************************/
 .login #login a {}
 .login #login a:hover {}
 
 
-/* login logo */
+/* login logo
+ ******************************/
 .login h1 {}
 .login h1 a {}
 
 
-/* login page primary button */
+/* login page primary button
+ ******************************/
 .login .button-primary {}
 .login .button-primary:hover {}
 
@@ -82,17 +84,20 @@ html {
 }
 
 
-/* login form labels */
+/* login form labels
+ ******************************/
 .login label {}
 
 
-/* login page form text and password inputs */
+/* login txt & password inputs
+ ******************************/
 .login input {}
 .login form input[type="text"] {}
 .login form input[type="password"] {}
 
 
-/* login form notification message */
+/* login notification message
+ ******************************/
 .login.login-action-login .message {
 	border: none;
 	box-shadow: none;
@@ -111,7 +116,9 @@ html {
 	opacity: 0;
 }
 
-/* login form error message */
+
+/* login error message
+ ******************************/
 .login #login  #login_error {
 	box-shadow: none;
 	position: absolute;
@@ -131,8 +138,8 @@ html {
 }
 
 a[href*="action=lostpassword"] {
-	text-decoration: none;
 	font-weight: bold;
+	text-decoration: none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29);
 	color: rgb(163, 6, 6);
 }
@@ -141,8 +148,11 @@ a[href*="action=lostpassword"]:hover {
 	color: white;
 }
 
-/* login page nav and back to blog links */
-/*.login.login-action-login #nav {}*/
+
+/* login nav and back2blog links
+ ******************************/
+.login.login-action-login #nav {}
+
 .login.login-action-login #backtoblog {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -172,10 +182,8 @@ a[href*="action=lostpassword"]:hover {
 }
 
 
-
-/** 
- * @Interim Login Form
- * This form runs on a timeout so once you log out from your site
+/* @Interim Login -------------------------------------------------- */
+/* This form runs on a timeout so once you log out from your site
  * go back to the dashboard (don't refresh) and give it about 2mins.
  * The form will appear as an overlay on top of the admin dashboard.
  */
@@ -188,10 +196,11 @@ a[href*="action=lostpassword"]:hover {
 	overflow: inherit !important;
 }
 
-/*.interim-login #login_error,
+.interim-login #login_error,
 .interim-login.login .message {}
 
-#wpwrap {}*/
+#wpwrap {}
+
 #wp-auth-check-wrap #wp-auth-check-bg {
 	background: #FCFEFF !important;
 	opacity: .95 !important;
@@ -216,19 +225,13 @@ a[href*="action=lostpassword"]:hover {
 }
 
 
-
-/**
- * WordPress Dashboard
- * @since : 1.0
- */
+/* @Admin Dashboard -------------------------------------------------- */
 
 body.wp-admin {}
-
 
 #adminmenu,
 #adminmenuback,
 #adminmenuwrap {}
-
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
 #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
@@ -236,38 +239,29 @@ body.wp-admin {}
 #adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
 .folded #adminmenu .wp-has-current-submenu .wp-submenu {}
 
-
 #adminmenu ul {}
 #adminmenu2 ul {}
-
 
 div#wpwrap {}
 div#wpadminbar {}
 
-
 div#wpcontent {}
 div#wpbody div.wrap {}
-
 
 div#dashboard-widgets-wrap {}
 div.postbox-container {}
 
-
 div.postbox {}
 div.postbox.closed {}
 
-
 .button {}
 .button.action {}
-
 
 #zeitgeist {}
 #footer {}
 
 
-/**
- * @keyframes
- */
+/* @CSS Utilities -------------------------------------------------- */
 
 @-webkit-keyframes fadeSlide {
 	to {
