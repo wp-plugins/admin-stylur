@@ -3,12 +3,12 @@
  * @package Admin Stylur
  * @version 1.1
  * @copyright 2014
- * @link  https://github.com/grayghostvisuals/admin-stylur
+ * @link  http://wordpress.org/plugins/admin-stylur
  */
 /*
 Plugin Name: Admin Stylur
-Plugin URI: https://github.com/grayghostvisuals/admin-stylur
-Description: Customize your WordPress Dashboard and admin login via a single CSS file that can be edited right from your dashboard. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
+Plugin URI: http://wordpress.org/plugins/admin-stylur
+Description: Customize your WordPress dashboard and login views via a single CSS file. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
 Author: Gray Ghost Visuals
 Version: 1.1
 Author URI: http://grayghostvisuals.com
@@ -149,7 +149,7 @@ function admin_stylur_admin_options_page() { ?>
       <p class="submit">
         <input name="theme_admin_stylur_options[submit]" id="submit_options_form" type="submit" class="button-primary" value="<?php esc_attr_e('Save Settings', 'admin_stylur'); ?>" />
         <input name="theme_admin_stylur_options[reset]" type="submit" class="button-secondary" value="<?php esc_attr_e('Reset', 'admin_stylur'); ?>" />
-      </p> 
+      </p>
     </form>
 
     <script>
@@ -267,7 +267,7 @@ function admin_stylur_setting_logo() {
 function admin_stylur_setting_logo_preview() {
   $admin_stylur_options = get_option( 'theme_admin_stylur_options' );  ?>
   <div id="upload_logo_preview" style="min-height: 100px;">
-    <img style="max-width: 80px; width: 100%; height: 80px; background: #F1F1F1;" src="<?php echo esc_url( $admin_stylur_options['logo'] ); ?>" /><!-- http://placehold.it/80x80 --->
+    <img style="max-width: 80px; width: 100%; height: 80px; background: #F1F1F1;" src="<?php echo esc_url( $admin_stylur_options['logo'] ); ?>" />
   </div>
 <?php }
 
