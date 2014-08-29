@@ -149,7 +149,7 @@ function admin_stylur_admin_options_page() { ?>
       <p class="submit">
         <input name="theme_admin_stylur_options[submit]" id="submit_options_form" type="submit" class="button-primary" value="<?php esc_attr_e('Save Settings', 'admin_stylur'); ?>" />
         <input name="theme_admin_stylur_options[reset]" type="submit" class="button-secondary" value="<?php esc_attr_e('Reset', 'admin_stylur'); ?>" />
-      </p> 
+      </p>
     </form>
 
     <script>
@@ -267,7 +267,7 @@ function admin_stylur_setting_logo() {
 function admin_stylur_setting_logo_preview() {
   $admin_stylur_options = get_option( 'theme_admin_stylur_options' );  ?>
   <div id="upload_logo_preview" style="min-height: 100px;">
-    <img style="max-width: 80px; width: 100%; height: 80px; background: #F1F1F1;" src="<?php echo esc_url( $admin_stylur_options['logo'] ); ?>" /><!-- http://placehold.it/80x80 --->
+    <img style="max-width: 80px; width: 100%; height: 80px; background: #F1F1F1;" src="<?php echo esc_url( $admin_stylur_options['logo'] ); ?>" />
   </div>
 <?php }
 
