@@ -8,11 +8,11 @@ Tags: admin, dashboard, login, styling, customize
 License: GPLv2 or later
 Donate link: https://www.habitat.org/cd/giving/one/donate.aspx?z=a&link=1
 
-Customize your WordPress dashboard and login views via a single CSS file.
+Customized and tweaked to perfection admin dashboard and login forms.
 
 == Description ==
 
-Customize your WordPress dashboard and login views via a single CSS file. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
+Customized and tweaked dashboard and login views. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
 
 NOTE:
 Layout uses [flexbox](http://caniuse.com/#search=flexbox). Error messages use [transforms](http://caniuse.com/#search=transforms), [transitions](http://caniuse.com/#search=transitions) and [animations](http://caniuse.com/#search=animations). Vendor prefixes supplied where required. Consider yourself warned.
