@@ -1,7 +1,7 @@
 === Admin Stylur ===
 
 Contributors: grayghostvisuals
-Stable tag: 1.1
+Stable tag: 1.2
 Requires at least: 3.9.2
 Tested up to: 3.9.2
 Tags: admin, dashboard, login, styling, customize
@@ -38,6 +38,9 @@ Sort of. It's a list of hooks and such for your convenience w/some general login
 Pretty fast.
 
 == Changelog ==
+
+= 1.2 =
+* Fixed flexbox layout for IE10. Adds new plugin icon for plugin directory and cleans stylesheet
 
 = 1.1 =
 * First Commit! Yay!

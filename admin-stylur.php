@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Admin Stylur
- * @version 1.1
+ * @version 1.2
  * @copyright 2014
  * @link  http://wordpress.org/plugins/admin-stylur
  */
@@ -10,7 +10,7 @@ Plugin Name: Admin Stylur
 Plugin URI: http://wordpress.org/plugins/admin-stylur
 Description: Customized and tweaked dashboard and login views. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
 Author: Gray Ghost Visuals
-Version: 1.1
+Version: 1.2
 Author URI: http://grayghostvisuals.com
 License: GPLv3
 */
