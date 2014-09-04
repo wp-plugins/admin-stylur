@@ -2,11 +2,11 @@
 
 Contributors: grayghostvisuals
 Stable tag: 1.2
-Requires at least: 3.9.2
-Tested up to: 3.9.2
+Requires at least: 4.0
+Tested up to: 4.0
 Tags: admin, dashboard, login, styling, customize
 License: GPLv2 or later
-Donate link: https://www.habitat.org/cd/giving/one/donate.aspx?z=a&link=1
+Donate link: http://www.giveforward.com
 
 Customized login form views for your wp-admin and dashboard screens.
 
