@@ -75,4 +75,5 @@ Your current version is wack. Don't worry though because if you update me everyt
 5. Forgot password error message
 6. Session expired
 7. Session expired error message
-8. Custom logo uploader screen
+8. WordPress update message
+9. Custom logo uploader screen
