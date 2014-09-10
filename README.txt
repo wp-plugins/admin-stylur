@@ -46,7 +46,7 @@ Sort of. Just some login cleanup cause I never like the way it looks, but I stil
 Simply upload a custom stylesheet named '``wplogin.css``' to your theme's '``css/admin-stylur``' directory. Of course, you'll need to create a directory named '``admin-stylur``' within your '``css``' directory first. The rest is history. Happy customizing.
 
 = What if I don't want custom styles that override admin stylur's defaults? =
-The scripts detects the presence of a custom stylesheet and loads accordingly. No worries dawg!
+The primary admin-stylur script detects the presence of a custom stylesheet and loads accordingly. No worries dawg! Bro fists all day long.
 
 = What is the airspeed velocity of a swallow? =
 Pretty fast.
