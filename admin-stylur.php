@@ -1,16 +1,16 @@
 <?php
 /**
  * @package Admin Stylur
- * @version 1.2
+ * @version 1.3
  * @copyright 2014
  * @link  http://wordpress.org/plugins/admin-stylur
  */
 /*
 Plugin Name: Admin Stylur
 Plugin URI: http://wordpress.org/plugins/admin-stylur
-Description: Customized and tweaked dashboard and login views. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens.
+Description: Customized and tweaked dashboard and login views. Read more about the customization of your admin via the <a href="http://codex.wordpress.org/Creating_Admin_Themes">WordPress Codex</a>. Features include setting the login image to the URL of your blogsetting and setting the title attribute to your blog's name. Also provided is a logo uploader (found under the “Appearance” dashboard menu item) to swap the default WordPress logo on all login screens along with the ability to add a custom stylesheet that overrides the plugin's defaults.
 Author: Gray Ghost Visuals
-Version: 1.2
+Version: 1.3
 Author URI: http://grayghostvisuals.com
 License: GPLv3
 */
@@ -395,6 +395,34 @@ function my_login_css() {
 
 add_action('login_head', 'my_login_css');
 add_action('admin_enqueue_scripts', 'my_login_css');
+
+
+/**
+ * @function my_custom_login_css()
+ * Loads a custom CSS file if the script detects it's presence:
+ * '<theme-name>/css/admin-stylur/wplogin.css'
+ *
+ * @since 1.3
+ */
+
+$admin_stylur_custom_stylesheet = '/css/admin-stylur/wplogin.css';
+$admin_stylur_custom_css        = get_template_directory() . $admin_stylur_custom_stylesheet;
+
+clearstatcache();
+
+if( file_exists( $admin_stylur_custom_css ) ) {
+
+  function admin_stylur_custom_styles() {
+
+    global $admin_stylur_custom_stylesheet;
+    echo '<link rel="stylesheet" href="' . get_template_directory_uri() . $admin_stylur_custom_stylesheet . '">';
+
+  }
+
+  add_action('login_head', 'admin_stylur_custom_styles');
+  add_action('admin_enqueue_scripts', 'admin_stylur_custom_styles');
+
+}
 
 
 /**
