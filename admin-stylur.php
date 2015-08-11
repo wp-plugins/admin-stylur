@@ -2,7 +2,7 @@
 /**
  * @package Admin Stylur
  * @version 1.3
- * @copyright 2014
+ * @copyright 2015
  * @link  http://wordpress.org/plugins/admin-stylur
  */
 /*
