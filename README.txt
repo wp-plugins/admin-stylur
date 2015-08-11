@@ -2,8 +2,8 @@
 
 Contributors: grayghostvisuals
 Stable tag: 1.3
-Requires at least: 4.1
-Tested up to: 4.1
+Requires at least: 4.2.4
+Tested up to: 4.2.4
 Tags: admin, dashboard, login, styling, customize
 License: GPLv2 or later
 Donate link: http://www.giveforward.com
